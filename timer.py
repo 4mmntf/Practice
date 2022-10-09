@@ -1,3 +1,4 @@
+import PySimpleGUI as sg
 import datetime
 import time
 timer = input()
@@ -10,3 +11,9 @@ print(time_now)
 time.sleep(timer)
 
 print("時間だよ！！！！！！！！！！！！！！！！！！")
+#デザインテーマの選択
+sg.theme("white")
+
+col1 = [sg.Text(time_now , size = (10,1) , pad = ((0,0),(10)))]
+
+col2 = []

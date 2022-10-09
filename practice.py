@@ -1,4 +1,4 @@
-print("hellow")
+print("hello")
 apple = input("How many apples do you want")
 apple = int(apple)
 apple_price = 100
