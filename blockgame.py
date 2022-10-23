@@ -1,2 +1,3 @@
-from fabric.colors import red ,blue ,green ,cean
+from fabric.colors import red ,blue ,green ,cyan
 
+print(red("hello"))
