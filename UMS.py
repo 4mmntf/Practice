@@ -12,4 +12,4 @@ if intor:
         num = num - 1
     print(rank)
 else:
-    print("enter number")
+    print("Enter number")
