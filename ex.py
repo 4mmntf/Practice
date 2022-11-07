@@ -1,7 +1,9 @@
 import random
 import numpy as np
 
-column ,line =int(input())#行と列を取得
+column =int(input())#列を取得
+line =int(input())#行を取得
+
 #リストの要素を計算し現在の行と列を宣言
 def ran(column,line):
     queue = column*line
