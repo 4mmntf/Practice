@@ -12,7 +12,7 @@ for i in range(1, pro_size + 1):
 print("\ncompleted")
 
 
-#0~5までの配列を自動生成
+#0~100までの配列を自動生成
 a = np.arange(100)
 
 #一次元配列aを二次元配列に変換
