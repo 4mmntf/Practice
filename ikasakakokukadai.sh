@@ -1,1 +1,0 @@
-for i in {1..10}; do shuf -e "東京" "工業" "医科" "歯科" "大学" | tr -d '\n' && echo ; done
