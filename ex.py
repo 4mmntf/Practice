@@ -23,7 +23,7 @@ print(list.reshape(line,column))
 i = int(line*column)
 while i > 0:
     if list[line*column - i] == 0:
-        print('□ ',end = ' ')
+        print('□',end = ' ')
     else:
-        print('■ ',end = ' ')
+        print('■',end = ' ')
     i = i-1
